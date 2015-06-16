@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>My App</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="../../dist/css/framework7.min.css">
+  <link rel="stylesheet" href="../../dist/css/framework7.themes.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+  </head>
+<body class="theme-pink layout-dark">
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal">
+        <form data-search-list=".list-block-search" data-search-in=".item-title" class="searchbar searchbar-init">
+            <div class="searchbar-input">
+                <input type="search" placeholder="Search"><a href="#" class="searchbar-clear"></a>
+            </div><a href="#" class="searchbar-cancel" style="display: block; margin-right: -51px;">Cancel</a>
+        </form>
+        <div class="content-block-title">Columns</div>
+        <div class="list-block">
+            <ul>
+                <li class="item-content">
+                    <div class="item-media"><i class="icon icon-hd"></i></div>
+                    <div class="item-inner">
+                        <div class="item-title">Item title</div>
+                    </div>
+                </li>
+                <li class="item-content">
+                    <div class="item-media"><i class="icon icon-video"></i></div>
+                    <div class="item-inner">
+                        <div class="item-title">Item title</div>
+                    </div>
+                </li>
+                <li class="item-content">
+                    <div class="item-media"><i class="icon icon-image"></i></div>
+                    <div class="item-inner">
+                        <div class="item-title">Item</div>
+                        <div class="item-after"><span class="badge">5</span></div>
+                    </div>
+                </li>
+                <li class="item-content">
+                    <div class="item-media"><i class="icon icon-com"></i></div>
+                    <div class="item-inner">
+                        <div class="item-title">Another item</div>
+                    </div>
+                </li>
+            </ul>
+            <div class="list-block-label">List block label text goes here</div>
+        </div>
+        <div class="content-block">
+        <div class="row">
+            <div class="col-33">33%</div>
+            <div class="col-33">33%</div>
+            <div class="col-33">33%</div>
+            <div class="col-33">33%</div>
+            <div class="col-33">33%</div>
+            <div class="col-33">33%</div>
+        </div>
+      </div>
+        <div class="content-block-title">Columns</div>
+        <div class="content-block">
+            <div class="row">
+                <div class="col-33">33%</div>
+                <div class="col-33">33%</div>
+                <div class="col-33">33%</div>
+                <div class="col-33">33%</div>
+                <div class="col-33">33%</div>
+                <div class="col-33">33%</div>
+            </div>
+        </div>
+        </div>
+
+    <!-- Views-->
+    <div class="views ">
+      <!-- Your main view, should have "view-main" class-->
+      <div class="view view-main layout-dark">
+        <!-- Top Navbar-->
+      <div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+            <a href="#" class="link icon-only open-login-screen">
+                <i class="icon icon-user"></i>
+            </a>
+        </div>
+        <div class="center">Center</div>
+        <div class="right">
+            <a href="#" class="open-panel link icon-only">
+                <i class="icon icon-menu"></i>
+            </a>
+        </div>
+    </div>
+</div>    
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          <!-- Index Page-->
+ <div class="page">
+            <!-- Scrollable page content-->
+    <div class="page-content">
+
+			<div class="swiper-container swiper-1">
+    <div class="swiper-pagination"></div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><span>Slide 1</span></div>
+      <div class="swiper-slide"><span>Slide 2</span></div>
+      <div class="swiper-slide"><span>Slide 10</span></div>
+    </div>
+  </div>
+     <div class="content-block">
+	<p><a href="show.html" class="button button-big">Round Button Active</a></p>
+	  <div class="row">
+        <div class="col-50">
+		 <a href="show.html">
+		<img data-src="http://lorempixel.com/500/500/nature/1" width="100%" class="lazy lazy-fadeIn">
+		<div class="text-center">Card Footer</div>
+		</a>
+		</div>
+        <div class="col-50"><img data-src="http://lorempixel.com/500/500/nature/2" width="100%" class="lazy lazy-fadeIn">
+		<div class="text-center">Card Footer</div>
+		</div>
+      </div>
+	    <div class="row">
+        <div class="col-50">
+		<img data-src="http://lorempixel.com/500/500/nature/1" width="100%" class="lazy lazy-fadeIn">
+		<div class="text-center">Card Footer</div>
+		</div>
+        <div class="col-50"><img data-src="http://lorempixel.com/500/500/nature/2" width="100%" class="lazy lazy-fadeIn">
+		<div class="text-center">Card Footer</div>
+		</div>
+      </div>
+	  <p><a href="#" class="button button-big">Round Button Active</a></p>
+	  <div class="row">
+        <div class="col-50">
+		<img data-src="http://lorempixel.com/500/500/nature/1" width="100%" class="lazy lazy-fadeIn">
+		<div class="text-center">Card Footer</div>
+		</div>
+        <div class="col-50"><img data-src="http://lorempixel.com/500/500/nature/2" width="100%" class="lazy lazy-fadeIn">
+		<div class="text-center">Card Footer</div>
+		</div>
+      </div>
+	    <div class="row">
+        <div class="col-50">
+		<img data-src="http://lorempixel.com/500/500/nature/1" width="100%" class="lazy lazy-fadeIn">
+		<div class="text-center">Card Footer</div>
+		</div>
+        <div class="col-50"><img data-src="http://lorempixel.com/500/500/nature/2" width="100%" class="lazy lazy-fadeIn">
+		<div class="text-center">Card Footer</div>
+		</div>
+      </div>
+ </div>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+	<!---login--->
+	<div class="login-screen">
+    <div class="view">
+      <div class="page">
+        <div class="page-content login-screen-content">
+          <div class="login-screen-title">My App</div>
+          <form>
+            <div class="list-block">
+              <ul>
+                <li class="item-content">
+                  <div class="item-inner">
+                    <div class="item-title label">Username</div>
+                    <div class="item-input">
+                      <input type="text" name="username" placeholder="Your username">
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content">
+                  <div class="item-inner">
+                    <div class="item-title label">Password</div>
+                    <div class="item-input">
+                      <input type="password" name="password" placeholder="Your password">
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="list-block">
+              <ul>
+                <li><a href="#" class="item-link list-button">Sign In</a></li>
+              </ul>
+              <div class="list-block-label">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p><a href="#" class="close-login-screen">Close Login Screen</a></p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="../../dist/js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>
